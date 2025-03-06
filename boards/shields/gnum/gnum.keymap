@@ -13,9 +13,9 @@
             bindings = <
                 &kp LPAR       &kp RPAR       &kp CARET      &kp KP_MULTIPLY 
                 &kp KP_N7      &kp KP_N8      &kp KP_N9      &kp KP_DIVIDE  
-                &kp KP_N4      &kp KP_N5      &kp KP_N6      &kp KP_MINUS  
-                &kp KP_N1      &kp KP_N2      &kp KP_N3      &kp KP_PLUS   
-                &kp KP_N0      &kp KP_DOT     &kp EQUAL      &out OUT_TOG
+                &kp KP_N4      &kp KP_N5      &kp KP_N6      &sys_reset
+                &kp KP_N1      &kp KP_N2      &kp KP_N3      &bootloader
+                &kp KP_N0      &kp KP_DOT     &kp EQUAL      &out OUT_BLE
             >;
         };
     };
